@@ -8,7 +8,8 @@ public class scanRev {
    System.out.println("Enter the string");
 	   String a = sc.nextLine();
 	   String r = "";
-	   for (int i = a.length()-1;i>=0;i--){
+	   for (int i = a.length()-1;i>=0;i--)
+	   {
 		   r += a.charAt(i);
 	   }
 	   System.out.println(r);
